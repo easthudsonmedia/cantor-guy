@@ -61,29 +61,6 @@ function configureAnimation(className) {
   observer.observe(document.querySelector('.' + className));
 }
 
-
-function configureAnimationV2(className) {
-    const formattedClassName = "." + className;
-    const transitionClassName = className + "-transition";
-  
-    // Remove the transition class
-    const element = document.querySelector(formattedClassName);
-    element.classList.remove(transitionClassName);
-  
-    // Create the intersection observer:
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          element.classList.add(transitionClassName);
-          return;
-        }
-        // element.classList.remove(transitionClassName);
-      });
-    });
-  
-    observer.observe(document.querySelector(formattedClassName));
-  }
-
 const animationClasses = ["services", "bio", 'chariot', 'dream', 'blog1', 'blog2', 'blog3'];
 
 animationClasses.forEach((className) => {
