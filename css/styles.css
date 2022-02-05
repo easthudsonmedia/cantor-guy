@@ -11643,6 +11643,9 @@ body {
   display: inline;
   border-bottom: 5px solid #910202;
 }
+.music-background {
+  background-color: #05082c;
+}
 .music-section {
   padding: 1rem 0 10rem 0;
 }
