@@ -11639,7 +11639,7 @@ body {
   }
 }
 
-.music-title, .blog-title, .contact-title, .album-title {
+.music-title, .blog-title, .blog-post-title, .contact-title, .album-title {
   display: inline;
   border-bottom: 5px solid #910202;
 }
@@ -11672,13 +11672,11 @@ body {
     width: 30%;
   }
 }
-
-.blog-section {
-  padding: 5rem 0;
-  background: linear-gradient(to bottom, #000 0%, rgba(5, 8, 44, 0.9) 75%, rgba(5, 8, 44, 0.8) 100%);
+.blog-blockquote {
+  border-left: 5px solid #910202;
+  padding-left: 15px;
 }
-
-.album-section {
+.blog-section, .blog-post-section, .album-section {
   padding: 5rem 0;
   background: linear-gradient(to bottom, #000 0%, rgba(5, 8, 44, 0.9) 75%, rgba(5, 8, 44, 0.8) 100%);
 }
