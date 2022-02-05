@@ -11604,6 +11604,30 @@ body {
   }
 }
 
+/* CUSTOM STYLES BEGIN HERE */
+.bg-gradient-blue-black {
+  background: linear-gradient(to bottom, #000 0%, rgba(5, 8, 44, 0.9) 75%, rgba(5, 8, 44, 0.8) 100%);
+}
+.bg-gradient-black-blue {
+  background: linear-gradient(to top, #000 0%, rgba(5, 8, 44, 0.9) 75%, rgba(5, 8, 44, 0.8) 100%);
+}
+.default-section-padding {
+  padding: 5rem 0;
+}
+.red-underline {
+  display: inline;
+  border-bottom: 5px solid #910202;
+  line-height: 2;
+}
+.red-blockquote {
+  border-left: 5px solid #910202;
+  padding-left: 15px;
+}
+.blog-card-img {
+  height: 300px;
+}
+
+
 .services-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(5, 8, 44, 0.9) 75%, rgba(5, 8, 44, 0.8) 100%);
@@ -11672,15 +11696,11 @@ body {
     width: 30%;
   }
 }
-.blog-blockquote {
-  border-left: 5px solid #910202;
-  padding-left: 15px;
-}
+
 .blog-section, .blog-post-section, .album-section {
   padding: 5rem 0;
   background: linear-gradient(to bottom, #000 0%, rgba(5, 8, 44, 0.9) 75%, rgba(5, 8, 44, 0.8) 100%);
 }
-
 .music-player-section, .more-blog-posts-section {
   background: linear-gradient(to top, #000 0%, rgba(5, 8, 44, 0.9) 75%, rgba(5, 8, 44, 0.8) 100%);
 }
@@ -11743,6 +11763,9 @@ body {
   }
   .dream-animation-transition {
     animation: slide-in-bottom 2s ease;
+  }
+  .all-blog-posts-animation-transition {
+    animation: fade-in 5s ease;
   }
   .blog1-animation-transition {
     animation: slide-in-bottom 1s ease;
