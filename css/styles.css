@@ -11681,7 +11681,7 @@ body {
   background: linear-gradient(to bottom, #000 0%, rgba(5, 8, 44, 0.9) 75%, rgba(5, 8, 44, 0.8) 100%);
 }
 
-.music-player-section {
+.music-player-section, .more-blog-posts-section {
   background: linear-gradient(to top, #000 0%, rgba(5, 8, 44, 0.9) 75%, rgba(5, 8, 44, 0.8) 100%);
 }
 
