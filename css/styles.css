@@ -11663,7 +11663,7 @@ body {
   }
 }
 
-.music-title, .blog-title, .blog-post-title, .contact-title, .album-title {
+.music-title, .blog-title, .blog-post-title, .contact-title, .album-title, .lyrics-title {
   display: inline;
   border-bottom: 5px solid #910202;
 }
