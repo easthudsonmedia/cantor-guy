@@ -11687,9 +11687,6 @@ body {
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .music-section .music-text {
-    padding: 5rem;
-  }
   .music-section .music-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
