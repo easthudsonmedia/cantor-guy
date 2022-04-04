@@ -11632,9 +11632,6 @@ body {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(5, 8, 44, 0.9) 75%, rgba(5, 8, 44, 0.8) 100%);
 }
-.services-section p {
-  margin-bottom: 5rem;
-}
 
 .bio-section {
   padding: 5rem 0 1rem 0;
