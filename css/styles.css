@@ -11758,6 +11758,9 @@ body {
   .dream-animation-transition {
     animation: slide-in-bottom 2s ease;
   }
+  .danced-animation-transition {
+    animation: slide-in-bottom 2s ease;
+  }
   .all-blog-posts-animation-transition {
     animation: fade-in 5s ease;
   }
