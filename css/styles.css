@@ -11769,9 +11769,6 @@ body {
   .video1-animation-transition {
     animation: slide-in-bottom 1s ease;
   }
-  .video2-animation-transition {
-    animation: slide-in-bottom 2s ease;
-  }
   .blog1-animation-transition {
     animation: slide-in-bottom 1s ease;
   }

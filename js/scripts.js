@@ -61,7 +61,7 @@ function configureAnimation(className) {
   observer.observe(document.querySelector('.' + className));
 }
 
-const animationClasses = ["services", "bio", 'chariot', 'dream', 'danced', 'all-blog-posts', 'video1', 'video2', 'blog1', 'blog2', 'blog3'];
+const animationClasses = ["services", "bio", 'chariot', 'dream', 'danced', 'all-blog-posts', 'video1', 'blog1', 'blog2', 'blog3'];
 
 animationClasses.forEach((className) => {
   configureAnimation(className + '-animation');
