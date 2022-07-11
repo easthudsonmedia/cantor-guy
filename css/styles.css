@@ -11660,7 +11660,7 @@ body {
   }
 }
 
-.music-title, .videos-title, .blog-title, .blog-post-title, .contact-title, .album-title, .lyrics-title {
+.music-title, .blog-title, .blog-post-title, .contact-title, .album-title, .lyrics-title {
   display: inline;
   border-bottom: 5px solid #910202;
 }
@@ -11689,9 +11689,6 @@ body {
     border-width: 0.25rem;
     width: 30%;
   }
-}
-.videos-section {
-  padding: 2rem 0 10rem 0;
 }
 .blog-section, .blog-post-section, .album-section {
   padding: 5rem 0;
@@ -11765,9 +11762,6 @@ body {
   }
   .all-blog-posts-animation-transition {
     animation: fade-in 5s ease;
-  }
-  .video1-animation-transition {
-    animation: slide-in-bottom 1s ease;
   }
   .blog1-animation-transition {
     animation: slide-in-bottom 1s ease;
